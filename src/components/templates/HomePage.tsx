@@ -75,7 +75,7 @@ const HomePage = () => {
     );
 
   return (
-    <div className="flex flex-col gap-4 bg-gray-100 min-h-screen">
+    <div className="flex flex-col gap-4 min-h-screen bg-radial-gradient from-blue-200 via-blue-300 to-blue-500">
       <Navbar location={data?.city.name} />
       <main className="px-3 max-w-7xl mx-auto flex flex-col gap-9 w-full pb-10 pt-4">
         {/* Today Data */}
